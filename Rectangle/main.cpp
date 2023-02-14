@@ -1,15 +1,15 @@
 #include "rectangle.hpp"
 
-using namespace cv;
+using namespace cv; // 추후 사용을 위해 남겨둠
 using namespace std;
 
 int main()
 {
-    int width, weight;
+    int width, height;
     width = 100;
-    weight = 150;
-    auto rect = Rectangle(width, weight);
+    height = 150;
+    auto rect = Rectangle(width, height);
     auto size = rect.getSize();
 
-    cout << "size : " + size << endl;
+    cout << "size : " + to_string(size) << endl;
 }
