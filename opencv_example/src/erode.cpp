@@ -8,7 +8,7 @@ using namespace cv;
 // 참조 : https://www.opencv-srf.com/2018/01/erode-images-and-videos.html
 int main()
 {
-    Mat img = imread("../hello_world.png");
+    Mat img = imread("../picture/hello_world.png");
     Mat new_img, new_img2;
 
     if(img.empty())

@@ -8,7 +8,7 @@ using namespace cv;
 // 이미지를 회전시키는 튜토리얼
 int main()
 {
-    Mat img = imread("../hello_world.png");
+    Mat img = imread("../picture/hello_world.png");
 
     if(img.empty())
     {

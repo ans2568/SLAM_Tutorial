@@ -7,7 +7,7 @@ using namespace cv;
 // convertTo()함수를 이용한 밝기 조절 튜토리얼
 int main()
 {
-    Mat img = imread("../hello_world.png");
+    Mat img = imread("../picture/hello_world.png");
     Mat new_img, new_img2;
 
     if(img.empty())

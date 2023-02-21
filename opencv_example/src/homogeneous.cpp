@@ -7,7 +7,7 @@ using namespace cv;
 // Kernel을 통한 블러 처리
 int main()
 {
-    Mat img = imread("../hello_world.png");
+    Mat img = imread("../picture/hello_world.png");
     Mat new_img, new_img2;
 
     if(img.empty())

@@ -29,7 +29,7 @@ int main()
         destroyWindow(name) : namedWindow로 인해 생성된 window나 imshow(name, image)를 통해 생성된 window의 name을 토대로 제거해주는 함수
             - name : 창 제목
     */
-    Mat img = imread("../hello_world.png");
+    Mat img = imread("../picture/hello_world.png");
     auto name = "hello, world";
     namedWindow(name);
     imshow(name, img);
